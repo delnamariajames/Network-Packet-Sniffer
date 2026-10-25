@@ -1,0 +1,13 @@
+SAMPLE LOG — illustrative data, not a real capture
+Packet capture started: 2026-10-25T14:30:00
+2026-10-25T14:30:01 | 192.168.1.10 -> 93.184.215.14 | TCP | bytes=60 | ports=51432->443 | payload_preview_hex=(empty)
+2026-10-25T14:30:02 | 192.168.1.10 -> 8.8.8.8 | UDP | bytes=57 | ports=53122->53 | payload_preview_hex=abcd01000001000000000000
+2026-10-25T14:30:03 | 192.168.1.1 -> 192.168.1.10 | ICMP | bytes=84 | payload_preview_hex=0000f7ff00010001
+2026-10-25T14:30:04 | 192.168.1.10 -> 93.184.215.14 | TCP | bytes=52 | ports=51432->443 | payload_preview_hex=(empty)
+
+Protocol statistics:
+TCP: 2
+UDP: 1
+ICMP: 1
+OTHER: 0
+TOTAL: 4
